@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}   
+
+.welcomeDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeDiv_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.welcomeDiv_nav{
+    display: flex;
+    gap: 30px;
+    margin-left:32px;
+}
+.welcomeDiv_nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.welcomeDiv_contact{
+    width: 122px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.welcomeDiv_section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+.welcomeDiv_motivateTitle{
+    font-size: 52px;
+    width: 30%;
+    margin-bottom: 0;
+    margin-top: 50px;
+    line-height: 1.6;
+}
+
+.welcomeDiv_article{
+    width: 43%;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+.welcomeDiv_buttonsLogin{
+    display: flex;
+    gap: 11px;
+
+}
+.welcomeDiv_img{
+    width: 100%;
+    overflow: hidden;    
+    height: 590px;
+}
+
+.welcomeDiv_button{
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1 px solid #000000;
+    padding: 10px 27px;
+    cursor: pointer;
+}
+.welcomeDiv_button_filled{
+    background-color: #000000;
+    color: #ffffff;
+}
+.welcomeDiv_button_empty{
+    background-color: #ffffff;
+    color: #000000;
+
+}
