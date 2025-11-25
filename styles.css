@@ -177,10 +177,10 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 89%;
+    width: 100%;
     gap: 49px;
     justify-content: space-around;
-    padding-top: 63px;
+    margin-top: 68px;
 }
 .white{
     background-color: #ffffff;
@@ -189,7 +189,7 @@ html, body {
     width: 70%;
 }
 .discoverProduction{
-    padding: 120px 80px;
+    padding: 113px 80px;
     align-items: start;
 }
 .columnDiv_middle-cardTitle, .columnDiv_middle-cardDesc{
@@ -215,4 +215,19 @@ html, body {
 }
 .columnDiv_buttons-Join{
     padding: 13px 24px;
+}
+.fourthCon{
+    margin-top: 0;
+    justify-content: center;
+    gap: 70px;
+        padding-left: 0;
+}
+.fourthCon_leftCon{
+    width: 42%;
+    gap: 35px;
+    padding-left: 20px;
+
+}
+.m-0{
+    margin: 0;
 }
