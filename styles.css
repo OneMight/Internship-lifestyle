@@ -1,13 +1,19 @@
+:root {
+    --Poppins: Poppins, sans-serif;
+   --Montserrat: Montserrat, sans-serif;
+   --Inter: Inter, sans-serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Poppins, sans-serif;
+    font-family: var(--Poppins);
     font-weight: 400;
     font-size: 18px;
     
 }   
 
-.welcomeDiv{
+.columnDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +36,7 @@ html, body {
     color: #000000;
     font-size: 16px;
     letter-spacing: 0.5px;
+    font-family: var(--Inter);
 }
 .welcomeDiv_contact{
     width: 122px;
@@ -39,6 +46,8 @@ html, body {
     padding: 10px 0;
     margin-right: 20px;
     cursor: pointer;
+    font-family: var(--Inter);
+    font-weight: 600;
 }
 .welcomeDiv_section{
     width: 90%;
@@ -55,6 +64,8 @@ html, body {
     margin-bottom: 0;
     margin-top: 50px;
     line-height: 1.6;
+    font-family: var(--Montserrat);
+
 }
 
 .welcomeDiv_article{
@@ -79,6 +90,8 @@ html, body {
     border: 1 px solid #000000;
     padding: 10px 27px;
     cursor: pointer;
+    font-family: var(--Inter);
+    font-weight: 600;
 }
 .welcomeDiv_button_filled{
     background-color: #000000;
@@ -87,5 +100,74 @@ html, body {
 .welcomeDiv_button_empty{
     background-color: #ffffff;
     color: #000000;
+}
 
+.rowDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9F8FE;
+    margin-top: 50px;
+    padding: 110px 0 80px 20px;
+}
+.rowDiv_leftCon{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 40%;
+    gap: 20px;
+   
+}
+.rowDiv_rightCon{
+    width: 43%;
+}
+.rowDiv_top-title{
+    font-size: 52px;
+    line-height: 1.3;
+    margin-bottom: 27px;
+    margin-top: 16px;
+    font-family: var(--Montserrat), sans-serif;
+}
+.rowDiv_middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.rowDiv_top-smallText{
+    font-weight: 500;
+    margin: 0;
+}
+.rowDiv_top-desc{
+    margin: 0;
+    padding-bottom: 30px;
+    
+}
+.rowDiv_middle-title{
+    font-size: 22px;
+}
+.rowDiv_middle-desc{
+    font-size: 16px;
+}
+.rowDiv_Reg{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #F9F8FE;
+    border: none;
+    color: #000000;
+    padding: 10px 0;
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.rowDiv_bottom{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
