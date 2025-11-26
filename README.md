@@ -15,3 +15,8 @@ To run project in your computer you need:
    ```
    http://localhost:5500
    ```
+
+#Check report
+
+Lighthouse: <img width="1872" height="716" alt="image" src="https://github.com/user-attachments/assets/cd0654bd-243b-412c-abd4-3f257dc1207e" />
+W3C Validator: <img width="952" height="869" alt="image" src="https://github.com/user-attachments/assets/7318412e-b790-426f-9d49-a3ddf3e717fc" />
