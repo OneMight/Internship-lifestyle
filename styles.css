@@ -1,7 +1,10 @@
 :root {
     --Poppins: Poppins, sans-serif;
-   --Montserrat: Montserrat, sans-serif;
-   --Inter: Inter, sans-serif;
+    --Montserrat: Montserrat, sans-serif;
+    --Inter: Inter, sans-serif;
+    --Black: #000000;
+    --White: #FFFFFF;
+    --BackGround:#F9F8FE;
 }
 
 html, body {
@@ -37,15 +40,15 @@ html, body {
 }
 .welcomeDiv_nav a{
     text-decoration: none;
-    color: #000000;
+    color: var(--Black);
     font-size: 16px;
     letter-spacing: 0.5px;
     font-family: var(--Inter);
 }
 .welcomeDiv_contact{
     width: 122px;
-    color: #ffffff;
-    background-color: #000000;
+    color: var(--White);
+    background-color: var(--Black);
     border-radius: 10px;
     padding: 10px 0;
     margin-right: 20px;
@@ -97,21 +100,21 @@ html, body {
    
 }
 .welcomeDiv_button{
-    color: #ffffff;
+    color: var(--White);
     border-radius: 10px;
-    border: 1 px solid #000000;
+    border: 1 px solid var(--Black);
     padding: 10px 27px;
     cursor: pointer;
     font-family: var(--Inter);
     font-weight: 600;
 }
 .welcomeDiv_button_filled{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--Black);
+    color: var(--White);
 }
 .welcomeDiv_button_empty{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--White);
+    color: var(--Black);
 }
 
 .rowDiv{
@@ -119,7 +122,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #F9F8FE;
+    background-color: var(--BackGround);
     margin-top: 50px;
     padding: 110px 0 108px 20px;
 }
@@ -168,9 +171,9 @@ html, body {
     display: flex;
     gap: 20px;
     align-items: center;
-    background-color: #F9F8FE;
+    background-color: var(--BackGround);
     border: none;
-    color: #000000;
+    color: var(--Black);
     padding: 10px 0;
     font-family: var(--Inter);
     font-weight: 600;
@@ -194,7 +197,7 @@ html, body {
     margin-top: 68px;
 }
 .white{
-    background-color: #ffffff;
+    background-color: var(--White);
 }
 .columnDiv_top{
     width: 70%;
@@ -364,7 +367,7 @@ html, body {
     width: 340px;
     padding: 10px 15px;
     border-radius: 10px;
-    border: 1px solid #000000;
+    border: 1px solid var(--Black);
     font-family: var(--Inter);
 }
 .predFooter_Input:focus{
@@ -382,7 +385,7 @@ html, body {
     justify-content: space-around;
     padding: 80px 0;
     gap: 15px;
-    background-color: #F9F8FE;
+    background-color: var(--BackGround);
 }
 .contact_methods{
     display: flex;
@@ -413,7 +416,7 @@ html, body {
 }
 .footer{
     width: 100%;
-    background-color: #F9F8FE;
+    background-color: var(--BackGround);
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
@@ -499,7 +502,7 @@ html, body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
-    color: #000000;
+    color: var(--Black);
     font-size: 16px;
 }
 .footer_social{
@@ -623,7 +626,7 @@ html, body {
         position: absolute;
         top:0;
         left:0;
-        background-color: #ffffff;
+        background-color: var(--White);
        
     }
     .menu{
@@ -729,11 +732,11 @@ html, body {
         width: 100%;
         height: 4px;
         border-radius: 10px;
-        background: #000;
+        background: var(--Black);
     }
     .burger::before {
         top: 0;
-        box-shadow: 0 11px 0 #000;
+        box-shadow: 0 11px 0 var(--Black);
         transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
     }
     .burger::after {
@@ -760,7 +763,7 @@ html, body {
         gap: 17px;
         padding: 42px 0;
         margin: 0;
-        background: #F9F8FE;
+        background: var(--BackGround);
         list-style-type: none;
         transform: translateX(-100%);
         transition: .3s;
