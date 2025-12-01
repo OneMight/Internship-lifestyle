@@ -628,10 +628,9 @@ html, body {
     }
     .menu{
         display: block;
+        margin-left: 10px;
     }
-    .welcomeDiv_header{
-        padding-left: 20px;
-    }
+
 
     .welcomeDiv_section{
         flex-direction: column;
