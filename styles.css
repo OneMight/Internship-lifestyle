@@ -16,14 +16,14 @@ html, body {
     
 }   
 
-.columnDiv{
+.column-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 15px;
 }
-.welcomeDiv_header{
+.welcome-div_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,19 +33,19 @@ html, body {
 .menu{
     display: none;
 }
-.welcomeDiv_nav{
+.welcome-div_nav{
     display: flex;
     gap: 30px;
     margin-left:32px;
 }
-.welcomeDiv_nav a{
+.welcome-div_nav a{
     text-decoration: none;
     color: var(--Black);
     font-size: 16px;
     letter-spacing: 0.5px;
     font-family: var(--Inter);
 }
-.welcomeDiv_contact{
+.welcome-div_contact{
     width: 122px;
     color: var(--White);
     background-color: var(--Black);
@@ -56,7 +56,7 @@ html, body {
     font-family: var(--Inter);
     font-weight: 600;
 }
-.welcomeDiv_section{
+.welcome-div_section{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@ html, body {
     padding: 10px 0;
 }
 
-.welcomeDiv_motivateTitle{
+.welcome-div_motivate-title{
     font-size: 52px;
     width: 30%;
     margin-bottom: 0;
@@ -75,23 +75,23 @@ html, body {
 
 }
 
-.welcomeDiv_article{
+.welcome-div_article{
     width: 43%;
     padding-right: 50px;
     padding-top: 40px;
 }
-.welcomeDiv_buttonsLogin{
+.welcome-div_buttons-login{
     display: flex;
     gap: 11px;
 
 }
-.welcomeDiv_imageDiv{
+.welcome-div_image-div{
     width: 100%;
     position: relative;
     height: 590px;
     overflow: hidden;
 }
-.welcomeDiv_img{
+.welcome-div_img{
     width: 100%;
     position: absolute;
     transform: translate(0,-10%);
@@ -99,25 +99,25 @@ html, body {
     object-fit: cover;
    
 }
-.welcomeDiv_button{
-    color: var(--White);
+.welcome-div_button{
+    color: var(--BackGround);
     border-radius: 10px;
-    border: 1 px solid var(--Black);
+    border: 1px solid var(--Black);
     padding: 10px 27px;
     cursor: pointer;
     font-family: var(--Inter);
     font-weight: 600;
 }
-.welcomeDiv_button_filled{
+.welcome-div_button-filled{
     background-color: var(--Black);
     color: var(--White);
 }
-.welcomeDiv_button_empty{
-    background-color: var(--White);
+.welcome-div_button-empty{
+    background-color: var(--BackGround);
     color: var(--Black);
 }
 
-.rowDiv{
+.row-div{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -126,7 +126,7 @@ html, body {
     margin-top: 50px;
     padding: 110px 0 108px 20px;
 }
-.rowDiv_leftCon{
+.row-div_left-con{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -135,7 +135,7 @@ html, body {
     gap: 28px;
    
 }
-.rowDiv_rightCon{
+.row-div_right-con{
     width: 43%;
 }
 .title{
@@ -145,14 +145,14 @@ html, body {
     margin-top: 16px;
     font-family: var(--Montserrat), sans-serif;
 }
-.rowDiv_middle{
+.row-div_middle{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
 }
-.smallText{
+.small-text{
     font-weight: 500;
     margin: 0;
 }
@@ -161,13 +161,13 @@ html, body {
     padding-bottom: 30px;
     
 }
-.rowDiv_middle-title{
+.row-div_middle-title{
     font-size: 22px;
 }
-.rowDiv_middle-desc{
+.row-div_middle-desc{
     font-size: 16px;
 }
-.rowDiv_button-borderless{
+.row-div_button-borderless{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -181,13 +181,13 @@ html, body {
     cursor: pointer;
 
 }
-.bottom_buttons{
+.bottom-buttons{
     display: flex;
     gap: 10px;
     align-items: center;
     margin-top: 20px;
 }
-.columnDiv_middle{
+.column-div_middle{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -199,45 +199,45 @@ html, body {
 .white{
     background-color: var(--White);
 }
-.columnDiv_top{
+.column-div_top{
     width: 70%;
 }
-.discoverProduction{
+.discover-production{
     padding: 113px 80px;
     align-items: start;
 }
-.columnDiv_middle-cardTitle, .columnDiv_middle-cardDesc{
+.column-div_middle-card-title, .column-div_middle-card-desc{
    margin: 0;
 }
-.columnDiv_middle-cardTitle{
+.column-div_middle-card-title{
     font-size: 22px;
 }
-.columnDiv_middle-cardDesc{
+.column-div_middle-card-desc{
     font-size: 16px;
 }
-.columnDiv_cardImg{
+.column-div_card-img{
     border-radius: 10px;
 }
-.columnDiv_middle-card{
+.column-div_middle-card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 19px;
     width: 31%;
 }
-.columnDiv_buttons{
+.column-div_buttons{
     margin-top: 80px;
 }
-.columnDiv_buttons-Join{
+.column-div_buttons-join{
     padding: 13px 24px;
 }
-.fourthCon{
+.fourth-con{
     margin-top: 0;
     justify-content: center;
     gap: 70px;
     padding-left: 0;
 }
-.fourthCon_leftCon{
+.fourth-con_left-con{
     width: 42%;
     gap: 35px;
     padding-left: 20px;
@@ -246,10 +246,10 @@ html, body {
 .m-0{
     margin: 0;
 }
-.fivesCon{
+.fives-con{
     padding: 50px;
 }
-.columnDiv_title{
+.column-div_title{
     font-size: 52px;
     text-align: center;
     width: 80%;
@@ -257,7 +257,7 @@ html, body {
     font-family: var(--Montserrat);
     font-weight: 700;
 }
-.exploreResoures{
+.explore-resoures{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -265,70 +265,70 @@ html, body {
     padding: 40px 30px;
     gap: 49px;
 }
-.exploreResoures_card{
+.explore-resoures_card{
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
-.exploreResoures_title{
+.explore-resoures_title{
     margin: 0;
 
     font-weight: 700;
     font-size: 22px;
     text-align: center;
 }
-.exploreResoures_description{
+.explore-resoures_description{
     text-align: center;
     font-size: 16px;
     margin: 0;
    
 
 }
-.exploreResoures_cardImg{
+.explore-resoures_card-img{
     border-radius: 10px;
 }
-.sixCon{
+.six-con{
     margin: 0;
     padding: 94px 20px;
     gap: 70px;
     justify-content: center;
 }
-.sixCon_leftCon{
+.six-con_left-con{
  width: 44%;
  gap: 45px;
 }
-.sixCon_title{
+.six-con_title{
     margin: 0;
 }
-.sixCon_middle{
+.six-con_middle{
     justify-content: center;
     gap: 10px;
 }
 
-.sixCon_middle-div{
+.six-con_middle-div{
     width: 50%;
 }
 
-.sixCon_middle-title{
+.six-con_middle-title{
     font-size: 52px;
     margin: 0;
 }
-.sixCon_middle-desc{
+.six-con_middle-desc{
     margin-top: 10px;
     margin-bottom: 0;
     font-size: 16px;
   
 }
-.sixCon_description{
+.six-con_description{
     margin: 0;
 }
-.sixCon_top{
+.six-con_top{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.predFooter{
+.pred-footer{
     width: 100%;
     padding: 110px 0;
     display: flex;
@@ -337,18 +337,18 @@ html, body {
     justify-content: center;
     gap: 30px;
 }
-.predFooter_subscriptionText{
+.pred-footer_subscription-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.predFooter_title{
+.pred-footer_title{
     font-size: 52px;
     font-family: var(--Montserrat);
     margin: 0;
 }
-.predFooter_SubmitForm{
+.pred-footer_submit-form{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -356,25 +356,25 @@ html, body {
     flex-direction: column;
     gap: 5px;
 }
-.predFooter_InputSubmit{
+.pred-footer_input-submit{
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.predFooter_Input{
+.pred-footer_input{
     width: 340px;
     padding: 10px 15px;
     border-radius: 10px;
     border: 1px solid var(--Black);
     font-family: var(--Inter);
 }
-.predFooter_Input:focus{
+.pred-footer_input:focus{
     outline:none;
 }
 
-.predFooter_terms{
+.pred-footer_terms{
     font-size: 12px;
 }
 .contact{
@@ -437,7 +437,7 @@ html, body {
     padding-left: 81px;
     flex-direction: column;
 }
-.footer_subscriptionText{
+.footer_subscription-text{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -445,14 +445,14 @@ html, body {
 .footer_description{
     margin: 0;
 }
-.footer_SubmitForm{
+.footer_submit-form{
     display: flex;
     flex-direction: column;
     gap: 8px;
     align-items: start;
     justify-content: space-between;
 }
-.footer_inputSubmit{
+.footer_input-submit{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -469,14 +469,14 @@ html, body {
     font-family: var(--Montserrat);
     font-weight: 700;
 }
-.footer_columnLinks{
+.footer_column-links{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 26px;
 }
-.footer_columnLinks > h2{
+.footer_column-links > h2{
     font-size: 22px;
     margin: 0;
 }
@@ -508,21 +508,21 @@ html, body {
 .footer_social{
     padding-top: 20px;
 }
-.rowDiv_rightCon > img, .contact_img > img{
+.row-div_right-con > img, .contact_img > img{
     width: 98%;
 }
 @media screen and (max-width : 1351px) {
-    .exploreResoures{
+    .explore-resoures{
         padding: 40px 0;
         flex-wrap: wrap;
     }
-    .exploreResoures_card {
+    .explore-resoures_card {
         width: 400px;
     }
-    .columnDiv_middle-card{
+    .column-div_middle-card{
         width: 370px;
     }
-    .columnDiv_middle{
+    .column-div_middle{
         flex-wrap: wrap;
     }
     .footer{
@@ -534,7 +534,7 @@ html, body {
         align-items: center;
         width: 80%;
     }
-    .discoverProduction{
+    .discover-production{
         align-items: center;
     }
     .footer_title{
@@ -543,7 +543,7 @@ html, body {
     .footer_description{
         text-align: center;
     }
-    .footer_inputSubmit{
+    .footer_input-submit{
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -551,10 +551,10 @@ html, body {
     }
 }
 @media screen and (max-width : 1000px) {
-    .welcomeDiv_imageDiv{
+    .welcome-div_image-div{
         height: 400px;
     }
-    .predFooter_title{
+    .pred-footer_title{
         text-align: center;
     }
     .contact_img{
@@ -565,34 +565,34 @@ html, body {
     }
 }
 @media screen and (max-width : 768px) {
-    .sixCon_img, .rowDiv_rightCon{
+    .six-con_img, .row-div_right-con{
         display: none;
     }
-    .sixCon_leftCon {
+    .six-con_left-con {
         width: 80%;
     }
-    .rowDiv_leftCon{
+    .row-div_left-con{
         width: 80%;
     }
-    .columnDiv_top{
+    .column-div_top{
         width: 80%;
     }
-    .welcomeDiv_motivateTitle{
+    .welcome-div_motivate-title{
         width: 50%;
     }
-    .welcomeDiv_article{
+    .welcome-div_article{
         padding-right: 0;
     }
-    .predFooter > div{
+    .pred-footer > div{
         width: 80%;
     }
-    .predFooter_title{
+    .pred-footer_title{
         text-align: center;
     }
-    .predFooter_desc{
+    .pred-footer_desc{
         text-align: center;
     }
-    .predFooter_InputSubmit{
+    .pred-footer_input-submit{
         width: 80%;
     }
     .footer_links{
@@ -607,19 +607,19 @@ html, body {
         width: 70%;
         text-align: center;
     }
-    .footer_SubmitForm{
+    .footer_submit-form{
         align-items: center;
     }
 
 }
 @media screen and (max-width: 675px) {
-    .welcomeDiv_nav{
+    .welcome-div_nav{
         display: none;
     }
-    .welcomeDiv_button{
+    .welcome-div_button{
         min-width: 105px;
     }
-    .welcomeDiv_hiddenMenu{
+    .welcome-div_hidden-menu{
         height: 100vh;
         width: 100%;
         display: flex;
@@ -635,53 +635,53 @@ html, body {
     }
 
 
-    .welcomeDiv_section{
+    .welcome-div_section{
         flex-direction: column;
         gap: 30px;
         width: 80%;
     }
-    .welcomeDiv_motivateTitle{
+    .welcome-div_motivate-title{
         width: 100%;
         font-size: 36px;
         margin: 0;
         text-align: center;
     }
-    .welcomeDiv_article{
+    .welcome-div_article{
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .welcomeDiv_desc{
+    .welcome-div_desc{
         text-align: center;
     }
-    .welcomeDiv_imageDiv{
+    .welcome-div_image-div{
         height: 300px;
     }
     .title{
         font-size: 36px;
         text-align: center;
     }
-    .smallText{
+    .small-text{
         font-size: 14px;
     }
     .description{
         font-size: 16px;
     }
-    .columnDiv_title{
+    .column-div_title{
         font-size: 36px;
         width: 100%;
     }
-    .exploreResoures_title{
+    .explore-resoures_title{
         font-size: 18px;
     }
-    .exploreResoures_description{
+    .explore-resoures_description{
         font-size: 14px;
     }
-    .predFooter_title{
+    .pred-footer_title{
         font-size: 36px;
     }
-    .predFooter_desc {
+    .pred-footer_desc {
         font-size: 16px;
     }
     .contact_methods{
@@ -690,19 +690,19 @@ html, body {
     .contact_information{
         width: 200px;
     }
-    .rowDiv_button-borderless{
+    .row-div_button-borderless{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 170px;
     }
-    .exploreResoures_card{
+    .explore-resoures_card{
         align-items: center;
     }
-    .columnDiv_middle-card{
+    .column-div_middle-card{
         align-items: center;
     }
-    .columnDiv_middle-cardDesc{
+    .column-div_middle-card-desc{
         text-align: center;
     }
      .menu{
@@ -786,44 +786,44 @@ html, body {
     }
 }
 @media screen and (max-width : 480px) {
-    .welcomeDiv_imageDiv{
+    .welcome-div_image-div{
         display: none;
     }
     .footer_input{
         width: 200px;
     }
-    .discoverProduction{
+    .discover-production{
         padding: 80px 0;
     }
-    .columnDiv_cardImg, .exploreResoures_cardImg{
+    .column-div_card-img, .explore-resoures_card-img{
         width:270px
     }
-    .rowDiv, .fivesCon{
+    .row-div, .fives-con{
         padding-left: 0;
         padding-right: 0;
     }
     .contact_methods{
         width: 80%;
     }
-    .exploreResoures_card, .columnDiv_middle-card{
+    .explore-resoures_card, .column-div_middle-card{
         width: 300px;
     }
-    .rowDiv_middle{
+    .row-div_middle{
         flex-direction: column;
     }
-    .fourthCon_leftCon{
+    .fourth-con_left-con{
         padding-left: 0;
     }
-    .sixCon_middle-div{
+    .six-con_middle-div{
         width: 80%;
     }
-    .predFooter_Input{
+    .pred-footer_input{
         width: 280px
     }
-    .predFooter_InputSubmit{
+    .pred-footer_input-submit{
         flex-direction: column;
     }
-    .footer_inputSubmit{
+    .footer_input-submit{
         flex-direction: column;
     }
     .footer_links{
